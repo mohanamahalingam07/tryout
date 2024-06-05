@@ -1,0 +1,93 @@
+.header{
+    height:57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+   
+    
+   
+   
+}
+.left-section{
+    
+    width: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    
+
+    
+    
+}
+.humber{
+    height: 30px;
+   
+
+    margin-left:24px ;
+    margin-right: 24px;
+    
+    
+}
+.youtube-logo{
+    height: 20px;
+}
+
+.middle-section{
+   
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 600px;
+    display:flex;
+    align-items: center;
+}
+.search-icon{
+    height: 30px;
+    border-width: 1px;
+    border-style: solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.voice-search{
+    height:30px;
+    border-radius:20px;
+    border: none;
+    padding:4px;
+   
+    margin-left: 10px;
+    background-color: rgb(240, 240, 240);
+}
+
+.search{
+    flex:1;
+    height:50px;
+}
+.right-section{
+     
+    width: 300px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+}
+.upload{
+    height:33px;
+   
+}
+.apps{
+    height:33px;
+   
+}
+.notification{
+    height:33px;
+   
+}
+.channel-profile{
+    height:50px;
+    display: flex;
+
+}
